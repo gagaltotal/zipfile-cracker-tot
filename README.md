@@ -43,6 +43,9 @@ Ensure you have Go installed on your system. Download it from [golang.org](https
 
 2. Install dependencies:
    ```
+   go mod init zipfile-cracker-tot
+   go mod tidy
+   OR
    go get github.com/alexmullins/zip
    go get github.com/schollz/progressbar/v3
    ```
@@ -100,11 +103,12 @@ For more comprehensive cracking attempts, consider using larger wordlists:
 
 ```
 zipfile-cracker-tot/
+├── images               Sample screenshot
 ├── zip_cracker.go       Main application source code
 ├── wordlist.txt         Sample wordlist for testing
 ├── zippcrack            Compiled executable (after building)
-├── go.mod              Go module definition
-└── README.md           This file
+├── go.mod               Go module definition
+└── README.md            This file
 ```
 
 ## How It Works
