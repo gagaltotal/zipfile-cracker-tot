@@ -57,11 +57,15 @@ Ensure you have Go installed on your system. Download it from [golang.org](https
 
 ## Usage
 
+![Screen Capture](https://raw.githubusercontent.com/gagaltotal/zipfile-cracker-tot/refs/heads/main/images/Screenshot%20from%202026-06-18%2015-30-15.png)
+
 ### Basic Syntax
 
 ```
 zippcrack <zip_file> <wordlist>
 ```
+
+![Screen Capture](https://raw.githubusercontent.com/gagaltotal/zipfile-cracker-tot/refs/heads/main/images/Screenshot%20from%202026-06-18%2015-31-19.png)
 
 ### Parameters
 
